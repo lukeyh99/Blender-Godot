@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Material_005.material" type="Material" id=1]
+[ext_resource path="res://bench.glb" type="PackedScene" id=2]
+
+[node name="bench" instance=ExtResource( 2 )]
+
+[node name="BenchDesign" parent="." index="0"]
+use_in_baked_light = true
+material/0 = ExtResource( 1 )

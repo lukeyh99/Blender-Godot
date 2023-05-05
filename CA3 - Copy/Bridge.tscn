@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Plank.tscn" type="PackedScene" id=1]
+
+[node name="Bridge" type="Spatial"]
+
+[node name="Plank" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.2996, -0.0152981, 0.00241062, 0.0152977, 0.29961, 0.000123087, -0.00241376, 6.98492e-11, 0.29999, 3.28462, -0.34995, 0.0411779 )
+
+[node name="Plank2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.2996, -0.0152981, 0.00241062, 0.0152977, 0.29961, 0.000123087, -0.00241376, 6.98492e-11, 0.29999, 7.70002, 0.289565, -0.0931567 )
+
+[node name="Plank3" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.297509, 0.0385037, 0.0023938, -0.0385024, 0.297519, -0.000309796, -0.00241376, 1.74623e-11, 0.29999, -1.16454, 0.22771, 0.0931581 )
+
+[node name="Plank4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.299165, 0.0222378, 0.00240712, -0.022237, 0.299175, -0.000178922, -0.00241376, 1.74623e-11, 0.29999, 0.805193, -0.22771, 0.0437237 )
+
+[node name="Plank5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.296683, -0.0444257, 0.00238715, 0.0444242, 0.296692, 0.000357443, -0.00241376, 6.98492e-11, 0.29999, 5.66654, -0.000165462, -0.0474412 )
